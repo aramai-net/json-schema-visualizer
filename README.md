@@ -33,8 +33,6 @@ Screenshot 1: JSON Schema Visualizer overview
 - Inspect the selected node in a **details panel**
 - Zoom in and out to explore large schemas comfortably
 
-[Screenshot: SHOT-02 - Graph view showing a schema rendered]
-
 ---
 
 ## Quick start
@@ -47,8 +45,6 @@ Screenshot 1: JSON Schema Visualizer overview
    - Search to jump to specific elements
    - Review node details in the right-side panel
 
-[Screenshot: SHOT-03 - Input area with Visualize button]
-
 ---
 
 ## Load a schema
@@ -59,8 +55,6 @@ Screenshot 1: JSON Schema Visualizer overview
 3. The schema content appears in the editor area for review and editing.
 4. Click **Visualize the Schema**.
 
-[Screenshot: SHOT-04 - Upload File selected]
-[Screenshot: SHOT-05 - Schema text loaded into the editor]
 
 ### Option 2: Load from a URL
 1. Switch to **URL Input**.
@@ -69,18 +63,17 @@ Screenshot 1: JSON Schema Visualizer overview
 4. Review the content in the editor.
 5. Click **Visualize the Schema**.
 
-[Screenshot: SHOT-06 - URL Input selected with Load the Schema action]
 
 ### Option 3: Paste schema directly
 1. Paste your JSON Schema into the editor text area.
 2. Click **Visualize the Schema**.
 
-[Screenshot: SHOT-07 - Pasted schema in editor]
 
 ### Edit anytime
 You can edit the loaded schema directly in the editor, then re-visualize as needed.
 
-[Screenshot: SHOT-08 - Editor showing an edit in progress]
+<img width="1311" height="892" alt="image" src="https://github.com/user-attachments/assets/6a9ee753-bfaf-4f3c-9492-885b0a02cc8c" />
+
 
 ---
 
@@ -93,18 +86,17 @@ When you hover over a node, you can see:
 - A short description (when available)
 - The node type
 
-[Screenshot: SHOT-09 - Hover tooltip showing path, description, type]
 
 ### Expand nested structures
 Each node includes a **target icon**. Click it to expand the node and reveal nested properties and deeper structures.
 
-[Screenshot: SHOT-10 - Target icon highlighted]
-[Screenshot: SHOT-11 - Expanded node showing properties]
+
 
 ### Color coding
 Nodes are color-coded by data type to help you quickly distinguish different types in the graph.
 
-[Screenshot: SHOT-12 - Color-coded nodes by type]
+<img width="1552" height="885" alt="image" src="https://github.com/user-attachments/assets/ac88fd13-bce4-409a-86d2-6b04c84247a9" />
+
 
 ---
 
@@ -118,12 +110,12 @@ Example flow:
 - `definitions` -> `Patient` -> `name`
 - Click `Patient` in the path to return to the Patient object view
 
-[Screenshot: SHOT-13 - Breadcrumb path visible and clickable]
 
 ### View the full schema structure
 You can click into a higher-level entry (like `definitions`) to see the broader visualization of the schema.
 
-[Screenshot: SHOT-14 - Full schema view after navigating to a higher level]
+<img width="1551" height="878" alt="image" src="https://github.com/user-attachments/assets/d4010e9d-e09b-4c87-9ac7-fc74043d8937" />
+
 
 ---
 
@@ -135,9 +127,7 @@ What happens when you search:
 - Results list schema objects and elements that match your query
 - Clicking a result navigates you directly to that element in the graph
 
-[Screenshot: SHOT-15 - Search input with results count]
-[Screenshot: SHOT-16 - Results list with multiple matching entries]
-[Screenshot: SHOT-17 - Navigated graph after clicking a search result]
+<img width="1659" height="779" alt="image" src="https://github.com/user-attachments/assets/748d5265-2d40-4ef6-b2dd-6bd4ddff49af" />
 
 ---
 
@@ -149,7 +139,7 @@ Typical uses:
 - Review the full schema snippet for the selected item
 - Understand structure while still seeing the graph
 
-[Screenshot: SHOT-18 - Right-side details panel showing selected node schema]
+<img width="1498" height="798" alt="image" src="https://github.com/user-attachments/assets/a0c15807-6deb-4aab-83d5-0187ce6723c4" />
 
 ---
 
@@ -157,8 +147,6 @@ Typical uses:
 For easier exploration, especially with larger schemas:
 - Zoom in to inspect dense areas
 - Zoom out to get a higher-level map of the schema graph
-
-[Screenshot: SHOT-19 - Zoom controls or zoomed graph views]
 
 ---
 
@@ -169,8 +157,6 @@ Try:
 - Confirm the schema is valid JSON
 - Make sure you pasted the full schema, including opening and closing braces
 - If loading from URL, verify the URL is accessible and returns the raw schema content
-
-[Screenshot: SHOT-20 - Example of a load or parse failure state, if available]
 
 ### Some parts are missing or look incomplete
 This can happen if:
@@ -208,20 +194,13 @@ Use the search bar, then click a result to jump directly to it.
 ---
 
 ## Modeling at scale
-If you need advanced schema management beyond visualization, use the top-right call to action:
+If you need advanced schema management beyond visualization, Try a Schema Management and Orchestation plaform like [CoreModels](https://learn.coremodels.io/user-guides/json-schema) for Free (use the top-right call to action):
 
-**Modeling at scale? Try CoreModels**
-
-CoreModels is a more advanced platform for managing schemas with workflows such as:
+[CoreModels](https://learn.coremodels.io/user-guides/json-schema) is a more advanced platform for managing schemas with workflows such as:
 - Visual schema design and collaboration
 - Import, visualize, and manage schemas via an intuitive interface
 - Map relationships between models
 - Merge and sync changes across iterations
 - Export and integrate into other systems
-- Optional automations (including MCP-related flows, if relevant to your setup)
+- Automations (including MCP-related flows, if relevant to your setup)
 
-CoreModels includes a **free plan** to get started.
-
-[Screenshot: SHOT-21 - CTA button in top-right corner]
-[Screenshot: SHOT-22 - CoreModels modal showing benefits]
-[Screenshot: SHOT-23 - CoreModels pricing showing free plan]
