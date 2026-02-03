@@ -199,7 +199,7 @@ Use the search bar, then click a result to jump directly to it.
 ---
 
 ## Modeling at scale
-If you need advanced schema management beyond visualization, Try a Schema Management and Orchestation plaform like [CoreModels](https://learn.coremodels.io/user-guides/json-schema) for Free (use the top-right call to action):
+If you need advanced schema management beyond visualization, Try a Schema Management and Orchestation plaform like CoreModels for Free 
 
 [CoreModels](https://learn.coremodels.io/user-guides/json-schema) is a more advanced platform for managing schemas with workflows such as:
 - Visual schema design and collaboration
