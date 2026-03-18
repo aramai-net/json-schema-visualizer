@@ -2,7 +2,7 @@
 
 Developed with ❤️ by [**Aramai**](https://www.aramai.net/)
 
-Access it Here: [**JSON Schema Visualizer**](https://www.aramai.net/products/json-schema-visualizer)
+Access it Here: [**JSON Schema Visualizer**](https://www.schematica.io/app/json-schema-visualizer)
 
 A free, lightweight tool to **load, explore, and understand JSON Schema visually**. Import a schema (file, URL, or paste), render it as an interactive graph, and navigate through nested structures with search, breadcrumbs, and a details panel.
 
